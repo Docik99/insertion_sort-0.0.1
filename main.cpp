@@ -23,7 +23,7 @@ bool rn(int & n, int * array)
 int main()
 {
 	int n = 5;
-	int * array = new int;
+	int * array = new int [n];
     string str;
 	getline(cin, str);
 	istringstream stream(str);
