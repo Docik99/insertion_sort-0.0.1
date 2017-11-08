@@ -54,6 +54,6 @@ int main()
 			cout << "An error has occured while reading input data.";
 		}
 	}
-	delete [] mas;
+	delete [] array;
 	return 0;
 }
